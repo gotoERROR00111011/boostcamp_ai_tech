@@ -4,10 +4,21 @@
 
 ## Data Structure
 
-### Stack & Queue
-list로 구현가능하다.  
-```.append()```, ```.pop( )```을 사용하면 LIFO  
-```.append()```, ```.pop(0)```을 사용하면 FIFO  
+### Stack
+LIFO  
+```python
+stack = []
+stack.append(1)
+stack.pop()
+```
+
+### Queue
+FIFO  
+```python
+queue = []
+queue.append(1)
+queue.pop(0)
+```
 
 ### Tuple
 값 변경이 불가능한 list  
