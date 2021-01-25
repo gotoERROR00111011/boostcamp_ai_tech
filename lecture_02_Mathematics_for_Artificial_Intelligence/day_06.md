@@ -308,6 +308,7 @@ Proj(x)의 길이는 코사인 법칙에 의해 <img src="https://render.githubu
 내적은 두 벡터의 유사도(similarity)를 측정하는데 사용 가능  
 
 <img src="https://render.githubusercontent.com/render/math?math=<x,y>=\sum_{i=1}^d{x_iy_i}">
+
 ```python
 np.inner(x, y)
 ```
@@ -340,6 +341,7 @@ Vector를 원소로 가지는 2차원 배열
 
 ### 유사역행렬(Pseudo-Inverse), 무어-펜로즈(Moore-Penrose)역행렬
 <img src="https://render.githubusercontent.com/render/math?math=\begin{cases}A^+=(A^TA)^{-1}A^T %26 (n\geq m)\\A^+=A^T(AA^T)^{-1} %26 (n\leq m)\end{cases}">
+
 
 ```python
 Y = np.array([[0, 1], [1, -1] ,[-2, 1]])
