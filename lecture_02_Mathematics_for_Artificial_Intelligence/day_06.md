@@ -296,19 +296,18 @@ def angle(x, y):
 
 ### 내적
 
-- 내적은 정사영(orthogonal projection)된 벡터의 길이와 관련있다.
+내적은 정사영(orthogonal projection)된 벡터의 길이와 관련있다.  
 ![inner01](../images/inner_1.png)
 
-- Proj(x)의 길이는 코사인 법칙에 의해 <img src="https://render.githubusercontent.com/render/math?math={\lVert}x{\rVert}\cos\theta">가 된다.
+Proj(x)의 길이는 코사인 법칙에 의해 <img src="https://render.githubusercontent.com/render/math?math={\lVert}x{\rVert}\cos\theta">가 된다.  
 ![inner01](../images/inner_2.png)
 
-- 내적은 정사영의 길이를 벡터y의 길이 <img src="https://render.githubusercontent.com/render/math?math={\lVert}y{\rVert}"> 만큼 조정한 값이다
+내적은 정사영의 길이를 벡터y의 길이 <img src="https://render.githubusercontent.com/render/math?math={\lVert}y{\rVert}"> 만큼 조정한 값이다.  
 ![inner01](../images/inner_3.png)
 
-- 내적은 두 벡터의 유사도(similarity)를 측정하는데 사용 가능
+내적은 두 벡터의 유사도(similarity)를 측정하는데 사용 가능  
 
-<img src="https://render.githubusercontent.com/render/math?math=<x,y>=\sum_{i=1}^d{x_iy_i}
-">
+<img src="https://render.githubusercontent.com/render/math?math=<x,y>=\sum_{i=1}^d{x_iy_i}">
 ```python
 np.inner(x, y)
 ```
@@ -316,13 +315,7 @@ np.inner(x, y)
 ## Matrix
 Vector를 원소로 가지는 2차원 배열  
 <img src="https://render.githubusercontent.com/render/math?math=X=\begin{bmatrix}x_1\\x_1\\\vdots \\x_n\\\end{bmatrix}">
-<img src="https://render.githubusercontent.com/render/math?math==\begin{bmatrix}
-x_{11}%26x_{12}%26\dots%26x_{1m}\\
-x_{21}%26x_{12}%26\dots%26x_{1m}\\
-\vdots%26\vdots%26x_{ij}%26 \vdots \\
-x_{n1}%26x_{n2}%26\dots%26x_{nm}\\
-\end{bmatrix}
-">
+<img src="https://render.githubusercontent.com/render/math?math==\begin{bmatrix}x_{11}%26x_{12}%26\dots%26x_{1m}\\x_{21}%26x_{12}%26\dots%26x_{1m}\\\vdots%26\vdots%26x_{ij}%26 \vdots \\x_{n1}%26x_{n2}%26\dots%26x_{nm}\\\end{bmatrix}">
 
 ### 행(row) 열(column)
 특정 행(열)을 고정하면 행(열)벡터라 부른다.  
