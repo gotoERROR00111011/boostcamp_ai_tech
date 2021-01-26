@@ -1,4 +1,4 @@
-# U-Stage Week1(Python) - Day 05
+# U-Stage Week1(Python) - Day 06
 
 ## Introduction
 
