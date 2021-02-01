@@ -2,6 +2,9 @@
 
 ## Introduction
 
+## Memo
+- GeoPandas
+
 ## 통계학
 
 ## 모수
