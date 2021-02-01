@@ -1,11 +1,20 @@
-# Boostcamp AI Tech
+# [Boostcamp AI Tech](https://boostcamp.connect.or.kr/)  
 
-## ID : T1176
 
-## 부스트캠프 학습 내용 정리  
-- 강의 복습 내용
-- 피어 세션 정리
-- 과제 진행 상황 정리
-- 과제 결과물에 대한 정리
-- 퀴즈 결과 회고
+## [설명회](https://tv.naver.com/v/16961882)
+
+
+## Test
+- BAT (Boostcamp AI Test)
+- 1차 코딩테스트
+- 2차 코딩테스트
+
+
+## U-Stage (Understanding-Stage)
+- 2021-01-18 - 2021-03-19
+- [edwith](https://www.edwith.org/bcaitech1/)  
+
+
+## P-Stage
+- 2021-03-29 - 2021-06-25
 

@@ -246,7 +246,7 @@ a.take(b)
 - 원점으로부터 상대적 위치를 표현
 - 두 벡터의 덧셈은 다른 벡터로부터 상대적 위치 이동 표현
 
-![vector](../images/vector.png)
+![vector](../images/math/vector.png)
 
 ### Norm
 벡터의 원점으로부터의 거리  
@@ -255,8 +255,8 @@ a.take(b)
 
 ### L1 Norm
 L1 norm 은 각 성분의 변화량의 절대값  
-![L1 norm](../images/l1_norm.png)
-![L1 norm](../images/l1_norm_.png)
+![L1 norm](../images/math/l1_norm.png)
+![L1 norm](../images/math/l1_norm_.png)
 <img src="https://render.githubusercontent.com/render/math?math={\lVert}x{\rVert}_1=\sum_{i}^d{|x_i|}">
 ```python
 def l1_norm(x):
@@ -267,8 +267,8 @@ def l1_norm(x):
 
 ### L2 Norm
 L2 norm 은 피타고라스 정리를 이용해 유클리드 거리 계산  
-![L2 norm](../images/l2_norm.png)
-![L2 norm](../images/l2_norm_.png)
+![L2 norm](../images/math/l2_norm.png)
+![L2 norm](../images/math/l2_norm_.png)
 <img src="https://render.githubusercontent.com/render/math?math={\lVert}x{\rVert}_2=\sqrt{\sum_{i}^d{|x_i|^2}}">
 ```python
 def l2_norm(x):
@@ -283,7 +283,7 @@ def l2_norm(x):
 <img src="https://render.githubusercontent.com/render/math?math={\lVert}x-y{\rVert}">
 
 ### 두 벡터 사이의 각도
-![theta](../images/theta.png)
+![theta](../images/math/theta.png)
 
 <img src="https://render.githubusercontent.com/render/math?math=\cos\theta=\frac{{\lVert}x{\rVert}^2_2+{\lVert}y{\rVert}^2_2-{\lVert}x-y{\rVert}^2_2}{2{\lVert}x{\rVert}_2{\lVert}y{\rVert}_2}=\frac{2<x,y>}{2{\lVert}x{\rVert}_2{\lVert}y{\rVert}_2}">
 
@@ -297,13 +297,13 @@ def angle(x, y):
 ### 내적
 
 내적은 정사영(orthogonal projection)된 벡터의 길이와 관련있다.  
-![inner01](../images/inner_1.png)
+![inner01](../images/math/inner_1.png)
 
 Proj(x)의 길이는 코사인 법칙에 의해 <img src="https://render.githubusercontent.com/render/math?math={\lVert}x{\rVert}\cos\theta">가 된다.  
-![inner01](../images/inner_2.png)
+![inner01](../images/math/inner_2.png)
 
 내적은 정사영의 길이를 벡터y의 길이 <img src="https://render.githubusercontent.com/render/math?math={\lVert}y{\rVert}"> 만큼 조정한 값이다.  
-![inner01](../images/inner_3.png)
+![inner01](../images/math/inner_3.png)
 
 내적은 두 벡터의 유사도(similarity)를 측정하는데 사용 가능  
 
