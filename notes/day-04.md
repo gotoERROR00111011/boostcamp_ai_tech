@@ -1,6 +1,12 @@
-# U-Stage Week1(Python) - Day 04
+# Week 1 - Day 04 - 파이썬 기초 문법 III
 
 ## Introduction
+### Lecture
+- Python Object Oriented Programming
+- Module and Project
+
+
+
 오늘 강의는 잘모르는 python 기능이 많아서 즐겁게 보았다.  
 
 

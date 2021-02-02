@@ -1,6 +1,12 @@
-# U-Stage Week1(Python) - Day 06
+# Week 2 - Day 06 - Numpy / 벡터 / 행렬
 
 ## Introduction
+### Lecture
+- Week 2 Overview
+- numpy
+- 벡터가 뭐에요?
+- 행렬이 뭐에요?
+
 
 ## numpy (Numerical Python)
 ### Creation

@@ -1,6 +1,13 @@
-# U-Stage Week1(Python) - Day 01
+# Week 1 - Day 01 - 파이썬/AI 개발환경 준비하기
 
 ## Introduction
+### Lecture
+- Step 1 코스 소개
+- Hidden class - Basic computer class for newbies
+- 파이썬 개요
+- 파이썬 코딩환경
+
+
 boostcamp ai tech 첫날  
 강의는 소개, 환경설정이 중심이었다.  
 따라서 복잡한 내용은 없었지만 재밌는 내용들이 있어서 정리해보았다.  

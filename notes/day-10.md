@@ -1,6 +1,10 @@
-# U-Stage Week1(Python) - Day 09
+# Week 2 - Day 10 - 시각화 / 통계학
 
 ## Introduction
+### Lecture
+- 시각화 도구
+- 통계학 맛보기
+
 
 ## Memo
 - GeoPandas

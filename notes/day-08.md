@@ -1,6 +1,10 @@
-# U-Stage Week1(Python) - Day 08
+# Week 2 - Day 08 - Pandas I / 딥러닝 학습방법 이해하기
 
 ## Introduction
+### Lecture
+- pandas I
+- 딥러닝 학습방법 이해하기
+
 
 ## Neural Network
 

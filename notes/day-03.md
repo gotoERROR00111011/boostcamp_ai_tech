@@ -1,6 +1,9 @@
-# U-Stage Week1(Python) - Day 03
+# Week 1 - Day 03 - 파이썬 기초 문법 II
 
 ## Introduction
+### Lecture
+- Python Data Structure
+- Pythonic code
 
 ## Data Structure
 

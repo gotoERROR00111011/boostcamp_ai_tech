@@ -1,6 +1,15 @@
-# U-Stage Week1(Python) - Day 11
+# Week 3 - Day 11 - 딥러닝 기초
 
 ## Introduction
+### Lecture
+- Week3 Overview
+- 베이즈 통계학 맛보기
+- 딥러닝 기본 용어 설명 - Historical Review
+- PyTorch 시작하기
+- 뉴럴 네트워크 - MLP
+- 데이터셋 다루기
+
+
 
 ## Good Deep Learner
 - Implementation Skills

@@ -1,6 +1,9 @@
-# U-Stage Week1(Python) - Day 05
+# Week 1 - Day 05 - 파이썬으로 데이터 다루기
 
 ## Introduction
+### Lecture
+- File / Exception / Log Handling
+- Python data handling
 
 
 ## Exception

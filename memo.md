@@ -22,8 +22,8 @@
 - [Kaggle Study](https://kaggle-kr.tistory.com/32)
 - [Dev Event](https://github.com/brave-people/Dev-Event)
 
-
-## Youtube
+## etc
+- [LaTex tool](http://www.hostmath.com/)
 - [3Blue1Brown](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
 
 ## Topic

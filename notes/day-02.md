@@ -1,6 +1,13 @@
-# U-Stage Week1(Python) - Day 02
+# Week 1 - Day 02 - 파이썬 기초 문법
 
 ## Introduction
+### Lecture
+- Variables
+- Function and Console I/O
+- Conditionals and Loops
+- String and advanced function concept
+
+
 python 기초 중심의 강의  
 변수, 문자열, 리스트, 함수, 조건문, 반복문 등 프로그래밍 언어의 필수적인 내용들이었다.  
 그 중에서 python의 특색있는, 잘모르던 부분을 정리하려한다.  

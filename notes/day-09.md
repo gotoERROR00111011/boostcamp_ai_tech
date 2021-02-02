@@ -1,6 +1,10 @@
-# U-Stage Week1(Python) - Day 09
+# Week 2 - Day 09 - Pandas II / 확률론
 
 ## Introduction
+### Lecture
+- pandas II
+- 확률론 맛보기
+
 
 ## 딥러닝에서의 확률론
 딥러닝은 확률론 기반의 기계학습 이론에 바탕을 두고 있다.  

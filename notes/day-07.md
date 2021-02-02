@@ -1,6 +1,10 @@
-# U-Stage Week1(Python) - Day 07
+# Week 2 - Day 07 - 경사하강법
 
 ## Introduction
+### Lecture
+- 경사하강법(순한맛)
+- 경사하강법(매운맛)
+
 
 ## 미분 (Differentiation)
 변수의 움직임에 따른 함수값의 변화를 측정하기 위한 도구  
