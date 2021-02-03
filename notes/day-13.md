@@ -8,7 +8,8 @@
 - CNN - 강아지 종류 분류하기
 - CNN - 나만의 데이터셋 만들기
 
-## ILSVRC (ImageNet Large-Scale Visual Recognition Challenge)  
+## CNN
+### ILSVRC (ImageNet Large-Scale Visual Recognition Challenge)  
 이 대회에서 나온 network, 논문들이 사용한 key idea들이 deep learning 발전에 큰 영향을 주었다.  
 
 점차 performance는 높이고, parameter size는 줄이는 경향으로 발전하고 있다.  
@@ -24,10 +25,10 @@ Year | Network | Error Rate
 2015 | GoogLeNet | 3.5%
 Human | ResNet | About 5.1%
 
-## AlexNet
+### AlexNet
 ReLU, GPU, Data augmentation, Dropout 등 지금까지도 사용하는 많은 idea를 발명?하였다.  
 
-## VGGNet
+### VGGNet
 3X3 convolution filter를 사용하는 것이 핵심  
 
 filter 크기가 커질때 얻는 이점은 고려하는 input의 크기가 커진다는 점이다.  
@@ -36,8 +37,8 @@ filter 크기가 커질때 얻는 이점은 고려하는 input의 크기가 커�
 3X3 filter를 2-layer 에서 사용하면 5X5 filter와 같은 범위까지 고려할 수 있다.  
 또한 필요한 parameters의 수까지 적어서 3X3 filter가 많이 사용된다.  
 
-## GoogLeNet
-### Inception Blocks
+### GoogLeNet
+#### Inception Blocks
 
 input에 대하여 다음 4가지 Layer를 수행 후, concatenation을 하는 block  
 
@@ -46,7 +47,7 @@ input에 대하여 다음 4가지 Layer를 수행 후, concatenation을 하는 b
 - 1X1 Conv -> 5X5 Conv, pad 2
 - 3X3 MaxPool, pad 1 -> 1X1 Conv
 
-### 1X1 Conv
+#### 1X1 Conv
 1X1 filter로 channel의 수를 줄여서 전체 parameters의 수를 줄일 수 있다.  
 이로인해 AlexNet, VGGNet 에 비해 layer가 깊지만, parameters 수는 더 적게 하는 효과를 낸다.  
 
@@ -54,18 +55,18 @@ input에 대하여 다음 4가지 Layer를 수행 후, concatenation을 하는 b
 - VGGNet(19-layers, 110M-param)
 - GoogLeNet(22-layers, 4M)
 
-## ResNet
-### Residual Block
+### ResNet
+#### Residual Block
 skip-connection  
 convolution 하기 전 input x를 convolution 후에 더해주는 방식  
 
-### Bottleneck Architecture
+#### Bottleneck Architecture
 1X1 Conv를 활용하여 전체 parameters와 연산량을 줄이는 구조  
 1. 1X1, 64
 1. 3X3, 64
 1. 1X1, 256
 
-## DenseNet
+### DenseNet
 ResNet과 비슷하지만, 값을 더하는것이 아닌, 연결하는 concatenation 방식이다.  
 
 이 방식으로는 channel 이 계속 커지는데, 1X1 Conv로 줄여준다.  
