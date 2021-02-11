@@ -24,10 +24,17 @@
 
 ## etc
 - [LaTex tool](http://www.hostmath.com/)
+- [LaTex formula](https://en.wikipedia.org/wiki/Help:Displaying_a_formula)
+- [LaTex symbol](https://en.wikipedia.org/wiki/List_of_mathematical_symbols_by_subject)
 - [3Blue1Brown](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
 
 ## Topic
-- 대학원 석사 : 필수는 아니지만 도움이 됨
+### Degree
+- 석사는 필수는 아니지만 도움이 됨  
+- engineer : 학/석사 학위 < 실력
+- researcher : 석사는 비추, 박사 추천  
+
+### Trend
 - 수학 능력 : 논문 수식 -> 검색 -> 이해
 - 메타버스 / 디지털트윈
 
