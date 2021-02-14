@@ -29,13 +29,10 @@ Human | ResNet | About 5.1%
 ReLU, GPU, Data augmentation, Dropout 등 지금까지도 사용하는 많은 idea를 발명?하였다.  
 
 ### VGGNet
-3X3 convolution filter를 사용하는 것이 핵심  
-
-filter 크기가 커질때 얻는 이점은 고려하는 input의 크기가 커진다는 점이다.  
-5X5 filter는 중심에서 2-pixel, 3X3 filter는 1-pixel 거리까지 고려한다.  
-
-3X3 filter를 2-layer 에서 사용하면 5X5 filter와 같은 범위까지 고려할 수 있다.  
-또한 필요한 parameters의 수까지 적어서 3X3 filter가 많이 사용된다.  
+3X3 filter를 사용하는 것이 핵심  
+filter의 크기가 커질때 얻는 이점은 고려하는 input의 범위가 넓어지는 것이다.  
+3X3 filter는 1-pixel, 5X5 filter는 2-pixel 거리까지 고려한다.  
+3X3 filter를 여러번 사용하면 넓은 범위를 고려하면서도 parameter 수가 적어지는 장점이 있다.  
 
 ### GoogLeNet
 #### Inception Blocks
@@ -58,7 +55,7 @@ input에 대하여 다음 4가지 Layer를 수행 후, concatenation을 하는 b
 ### ResNet
 #### Residual Block
 skip-connection  
-convolution 하기 전 input x를 convolution 후에 더해주는 방식  
+convolution 하기 전 input x를 나중에 더해주는 방식  
 
 #### Bottleneck Architecture
 1X1 Conv를 활용하여 전체 parameters와 연산량을 줄이는 구조  
@@ -68,7 +65,6 @@ convolution 하기 전 input x를 convolution 후에 더해주는 방식
 
 ### DenseNet
 ResNet과 비슷하지만, 값을 더하는것이 아닌, 연결하는 concatenation 방식이다.  
-
 이 방식으로는 channel 이 계속 커지는데, 1X1 Conv로 줄여준다.  
 (concatenation을 하는 Dense Block -> 1X1 Conv를 하는 Transition Block) 를 반복하는 구조다.  
 

@@ -51,7 +51,7 @@
 <img src="https://render.githubusercontent.com/render/math?math=W_{t%2B1}\leftarrow W_t-\eta g_t">
 
 ### Momentum
-한번 흘러가기 시작한 방향을 사용한다.  
+학습 진행의 방향성을 유지해주는 방식  
 <img src="https://render.githubusercontent.com/render/math?math=a_{t%2B1}"> : accumulation  
 <img src="https://render.githubusercontent.com/render/math?math=\beta"> : momentum  
 <img src="https://render.githubusercontent.com/render/math?math=a_{t%2B1}\leftarrow \beta a_t %2B g_t ">
@@ -67,7 +67,7 @@
 
 ### Adagrad
 parameters의 학습이 느리면 더빠르게, 빠르면 더 느리게 조정한다.  
-분모가 계속 커져서 진행할수록 학습이 느려진다.  
+분모가 계속 커져서 진행할수록 학습이 느려지는 문제가 있다.  
 <img src="https://render.githubusercontent.com/render/math?math=\epsilon"> : for numerical stability  
 <img src="https://render.githubusercontent.com/render/math?math=G_t"> : Sum of gradient squares  
 <img src="https://render.githubusercontent.com/render/math?math=W_{t%2B1}=W_t-\frac{\eta}{\sqrt{G_t %2B \epsilon}}g_t">
@@ -103,7 +103,7 @@ momentum과 EMA 개념을 결합하여 사용
 <img src="https://render.githubusercontent.com/render/math?math=W_{t%2B1}=W_t-\frac{\eta}{\sqrt{v_t%2B\epsilon}}\frac{\sqrt{1-\beta^t_2}}{1-\beta^t_1}m_t">
 
 ## Regularization
-- test 에서도 잘 동작하도록 학습에 제한을 두는 방법  
+test 에서도 잘 동작하도록 학습에 제한을 두는 방법  
 
 ### Early Stopping
 
@@ -129,15 +129,13 @@ training에서 input data, weights에 noise를 넣으면 test 단계에서 잘 �
 ### Batch Normalization
 - 적용할 layer의 parameters를 정규화
 - 적용할 layer 전체 합이 0이 되도록 한다.
-- 이 방식에 동의하지 않는 사람들도 많다고 한다.
 - batch norm, layer norm, instance norm, group norm 등 다양한 단위의 norm 이 가능하다.
 
 
 ## Convolution 
 ### Convolution 연산
 - <img src="https://render.githubusercontent.com/render/math?math=h_i=\sigma\left(\sum^k_{j=1}V_{j}x_{i %2B j-1} \right)">
-- 고정된 kernel을 움직이며 사용한다.
-- parameters 수가 적다.
+- 고정된 kernel을 움직이며 사용하기 때문에, parameters 수가 적다.
 
 ### 수학적 이해
 - convolution 연산의 수학적 의미 : 신호(signal)를 커널을 이용해 국소적으로 증폭 또는 감소 시켜서 정보를 추출 또는 필터링 하는것
