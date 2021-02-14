@@ -27,10 +27,10 @@ def softmax(vec):
 활성함수를 사용하지 않으면 딥러닝은 선형모형과 차이가 없다.  
 
 #### Sigmoid
-<img src="https://render.githubusercontent.com/render/math?math=\sigma(x)=\frac{1}{1+e^{-x}}">
+<img src="https://render.githubusercontent.com/render/math?math=\sigma(x)=\frac{1}{1%2Be^{-x}}">
 
 #### tanh
-<img src="https://render.githubusercontent.com/render/math?math=\tanh(x)=\frac{e^{x}-e^{-x}}{e^{x}+e^{-x}}">
+<img src="https://render.githubusercontent.com/render/math?math=\tanh(x)=\frac{e^{x}-e^{-x}}{e^{x}%2Be^{-x}}">
 
 #### ReLU
 <img src="https://render.githubusercontent.com/render/math?math=\text{ReLU}(x)=\max(0,x)">

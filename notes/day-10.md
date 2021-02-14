@@ -25,12 +25,5 @@
 - 데이터가 0 이상의 값을 가지는 경우 : 감마 분포, 로그 정규 분포
 - 데이터가 R 전체에서 값을 가지는 경우 : 정규 분포, 라플라스 분포
 
-## 최대가능도 추정법
-
-
-## 쿨백 라이블러 발산
-
 ## Team
 - kaggle 스터디 결정
-
-<img src="https://render.githubusercontent.com/render/math?math=">
