@@ -16,9 +16,7 @@ attention mechanism은 encoder를 만드는 과정에서의 hidden state vector 
 
 attention model은 encoder의 hidden state vector들과 decoder의 hidden state vector의 유사도를 구하여 가중치로 사용한다.  
 유사도를 구하는 방법은 내적, concat->neural network 등이 있다.  
-<img src="https://render.githubusercontent.com/render/math?math=\text{score}(h_t,\bar{h}_s)=\begin{cases}h^T_t \bar{h}_s %26 dot\\
-h^T_t W_a \bar{h}_s %26 general\\
-v^T_a \tanh(W_a[h^T_t %3B \bar{h}_s]) %26 concat\end{cases}">
+<img src="https://render.githubusercontent.com/render/math?math=\text{score}(h_t,\bar{h}_s)=\begin{cases}h^T_t \bar{h}_s %26 dot\\h^T_t W_a \bar{h}_s %26 general\\v^T_a \tanh(W_a[h^T_t %3B \bar{h}_s]) %26 concat\end{cases}">
 
 attention model은 backpropagation 과정에서 time step 전체를 거치지 않고 attention 경로를 사용하기 때문에 gradient vanishing, exploding 문제가 발생하지 않는다.  
 
