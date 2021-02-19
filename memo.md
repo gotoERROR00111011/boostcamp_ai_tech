@@ -28,6 +28,8 @@
 - [LaTex symbol](https://en.wikipedia.org/wiki/List_of_mathematical_symbols_by_subject)
 - [3Blue1Brown](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
 
+- [NVIDIA](https://developer.nvidia.com/deep-learning-performance-training-inference)
+
 ## Topic
 ### Degree
 - 석사는 필수는 아니지만 도움이 됨  
