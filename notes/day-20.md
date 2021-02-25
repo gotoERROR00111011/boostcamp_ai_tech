@@ -9,8 +9,6 @@
 
 
 ## Self-Supervised Pre-Training Models
-- GLUE benchmark : 자연어 모델 benchmark
-### Machine Reading Comprehension (MRC)
 
 ## GPT-1
 1. input : text & position embed
