@@ -69,12 +69,12 @@
            <tr>
                <td>TBD</td>
                <td>구종만</td>
-               <td></td>
+               <td>AI + ML과 Quant Trading</td>
            </tr>
            <tr>
                <td>TBD</td>
                <td>오혜연 교수</td>
-               <td></td>
+               <td>AI Ethics</td>
            </tr>
            <tr>
                <td>TBD</td>
@@ -122,7 +122,7 @@
                </td>
            </tr>
            <tr>
-               <td>사전학습된 Transformer 기반언어 모델의 학습과 평가</td>
+               <td>자연어 처리를 위한 언어 모델의 학습과 평가</td>
                <td>박성준</td>
                <td>
                현 UPSTAGECo-Founder<br>
