@@ -1,11 +1,12 @@
-# Professor
+# U-stage
 
-## 강사진
+## Lecture
+
 <table style="text-align:left">
        <thead>
            <tr>
                <th>구분</th>
-               <th>성명</th>
+               <th>강사</th>
                <th>경력</th>
            </tr>
        </thead>

@@ -30,6 +30,11 @@
 
 - [NVIDIA](https://developer.nvidia.com/deep-learning-performance-training-inference)
 
+## Library
+- timm
+- huggingface
+- albumentations
+
 ## Topic
 ### Degree
 - 석사는 필수는 아니지만 도움이 됨  
