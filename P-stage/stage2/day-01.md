@@ -1,4 +1,4 @@
-# Stage 1 - Day 1
+# Stage 2 - Day 1
 
 ## Introduction
 ### Lecture
