@@ -23,8 +23,9 @@ image 수가 적어서 pre-trained 가 좋은 성과를 얻을 수 있을것이�
 
 | model | env | epoch | batch size | input image | time(s) |
 | --- | --- | --- | --- | --- | --- |
-| EfficientNet b7 | Tesla P40 (24451MiB) | 1 (16384 image) | 32 | 3 * 228 * 228 | 671.688 |
+| EfficientNet b7 | Tesla T4 (15109MiB) | 1 (16384 image) | 16 | 3 * 228 * 228 | 910.186 |
 | EfficientNet b7 | Tesla P40 (24451MiB) | 1 (16384 image) | 16 | 3 * 228 * 228 | 718.866 |
+| EfficientNet b7 | Tesla P40 (24451MiB) | 1 (16384 image) | 32 | 3 * 228 * 228 | 671.688 |
 | EfficientNet b7 | Tesla P100 (16280MiB) | 1 (16384 image) | 16 | 3 * 228 * 228 | 587.277 |
 | EfficientNet b7 | Tesla V100 (32480MiB) | 1 (16384 image) | 16 | 3 * 228 * 228 | 320.569 |
 | EfficientNet b7 | Tesla V100 (32480MiB) | 1 (16384 image) | 32 | 3 * 228 * 228 | 284.785 |
