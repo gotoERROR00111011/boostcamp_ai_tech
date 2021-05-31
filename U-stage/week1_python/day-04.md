@@ -1,19 +1,20 @@
 # Week 1 - Day 04 - 파이썬 기초 문법 III
 
 ## Introduction
+
 ### Lecture
+
 - Python Object Oriented Programming
 - Module and Project
 
-
-
-오늘 강의는 잘모르는 python 기능이 많아서 즐겁게 보았다.  
-
+오늘 강의는 잘모르는 python 기능이 많아서 즐겁게 보았다.
 
 ## Class
 
 ### Declaration
-python의 naming convention은 다음 두가지를 사용한다.  
+
+python의 naming convention은 다음 두가지를 사용한다.
+
 - snake_case : 변수, 함수
 - UpperCamelCase : 클래스
 
@@ -27,6 +28,7 @@ class_name = ClassName()
 ```
 
 ### Inheritance
+
 ```python
 class Person(object):
     def __init__(self, name, age):
@@ -40,6 +42,7 @@ class Employee(Person):
 ```
 
 ### Polymorphism
+
 ```python
 class Animal:
     def init(self, name):
@@ -57,6 +60,7 @@ class Dog(Animal):
 ```
 
 ### Visibility
+
 ```python
 class Inventory(object):
     def __init__(self):
@@ -68,17 +72,22 @@ class Inventory(object):
 ```
 
 ## Decorate
+
 ### First-Class Object
+
 python의 함수는 변수할당, 파라메터 전달, 리턴 값 으로 사용가능하다.
+
 ```python
 def square(x):
     return x * x
 f = square
 f(5)
 ```
+
 ### Inner Function
+
 ```python
-def print_msg(msg): 
+def print_msg(msg):
     def printer():
         print(msg)
     printer()
@@ -86,6 +95,7 @@ print_msg("Hello, Python")
 ```
 
 ### Closure
+
 ```python
 def tag_func(tag, text):
     tag = tag
@@ -93,13 +103,14 @@ def tag_func(tag, text):
 
     def inner_func():
         return "<{0}>{1}<{0}>".format(tag, text)
-    
+
     return inner_func()
 h1_func = tag_func("h1", "This is Python Class")
 h1_func()
 ```
 
 ### Decorator Function
+
 ```python
 def star(func):
     def inner(*args, **kwargs):
@@ -126,6 +137,7 @@ printer("Hello")
 #%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 #******************************
 ```
+
 ```python
 def generate_power(exponent):
     def wrapper(f):
@@ -146,6 +158,7 @@ print(raise_two(7))
 ```
 
 ## Module
+
 ```python
 # module_test.py
 
@@ -160,6 +173,7 @@ test()
 ```
 
 ## Package
+
 ```
 - game
     - __init__.py
@@ -175,11 +189,13 @@ test()
         - main.py
         - sub.py
 ```
+
 ```python
 from game.sound.bgm import play
 from ..sound.bgm import play
 ```
 
 ## Team
+
 - 과제 코드리뷰
 - 조교님 팀 면담 일정 확인

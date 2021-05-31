@@ -1,10 +1,11 @@
 # Week 1 - Day 05 - 파이썬으로 데이터 다루기
 
 ## Introduction
+
 ### Lecture
+
 - File / Exception / Log Handling
 - Python data handling
-
 
 ## Exception
 
@@ -31,19 +32,22 @@ except Exception as e:
 ```
 
 ## Raise
-강제로 Exception 발생  
+
+강제로 Exception 발생
+
 ```python
 raise <Exception Type>(예외정보)
 raise ValueError("Value Error!")
 ```
 
 ## Assert
-특정 조건을 만족하지 않을 경우 예외 발생  
+
+특정 조건을 만족하지 않을 경우 예외 발생
+
 ```python
 assert 예외조건
 assert isinstance(1, int)
 ```
-
 
 ## File
 
@@ -53,6 +57,7 @@ f.close()
 ```
 
 ### Read
+
 ```python
 f = open("파일이름", "r")
 print(f.readline())
@@ -65,6 +70,7 @@ with open("파일이름", "r") as f:
 ```
 
 ### Write
+
 ```python
 f = open("파일이름", "w", encoding="utf8")
 f.wrtie("write")
@@ -76,12 +82,14 @@ f.close()
 ```
 
 ### Directory
+
 ```python
 import os
 import pathlib
 ```
 
 ### Pickle
+
 ```python
 import pickle
 
@@ -98,7 +106,9 @@ test_pickle = pickle.load(f)
 ```
 
 ## Log Handling
+
 ### Logging
+
 ```python
 import logging
 
@@ -110,8 +120,10 @@ logging.critical ("critical")
 ```
 
 ### Configparser
+
 프로그램 실행 설정을 file에 저장  
-section, key, value 형태  
+section, key, value 형태
+
 ```
 # example.cfg
 [SectionOne]
@@ -125,6 +137,7 @@ Color = Green
 [SectionThree]
 Age: 30
 ```
+
 ```python
 import configparser
 config = configparser.ConfigParser()
@@ -140,7 +153,8 @@ config['SectionOne']["status"]
 ```
 
 ### Argparser
-console에서 프로그램 실행시 setting  
+
+console에서 프로그램 실행시 setting
 
 ```python
 import argparse
@@ -157,6 +171,7 @@ args = parser.parse_args()
 ```
 
 ## Data Handling
+
 ### CSV (Comma Separate Value)
 
 ### HTML (Hyper Text Markup Language)
@@ -166,6 +181,7 @@ args = parser.parse_args()
 ### JSON (JavaScript Object Notation)
 
 ### 정규식 (Regular Expression)
+
 [정규식 연습](https://regexr.com/)
 
 ```python
@@ -173,9 +189,8 @@ import re
 re.findall(r"([A-Za-z0-9])", "ABC_abc_123")
 ```
 
-
 ## Team
+
 - 아이스 브레이킹
 - 조교님과 간단한 자기소개
 - 팀에 대한 조언 등
-
