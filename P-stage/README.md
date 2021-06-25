@@ -1,7 +1,13 @@
 # P-stage
 
+- Stage 1 : Image Classification
+- Stage 2 : KLUE 한국어 언어 모델 학습 및 다중 과제 튜닝
+- Stage 3 : Dialogue State Tracking
+- Stage 4 : 수식 인식기
+
 ## Server
-- [Upstage](http://boostcamp.stages.ai/)  
+
+- [Upstage](http://boostcamp.stages.ai/)
 - Tesla P40 or Tesla V100
 
 ## Lecture
